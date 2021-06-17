@@ -36,25 +36,6 @@ export default {
             renderFindArea: true,
         });
         console.log(astar.path);
-        astar.setOptions({
-            end: {
-                x: 0,
-                y: 2,
-            },
-        });
-        console.log(astar.path);
     },
 };
 </script>
-<style lang="scss">
-#app {
-    color: #2c3e50;
-    height: 100%;
-
-    .item {
-        width: 50%;
-        height: 100%;
-        float: left;
-    }
-}
-</style>

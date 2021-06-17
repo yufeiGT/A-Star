@@ -9,17 +9,17 @@ module.exports = merge(common, {
 	mode: 'development',
 	resolve: {
 		alias: {
-			'@Dev': path.resolve(__dirname, 'dev'),
+			'@example': path.resolve(__dirname, 'example'),
 			'astar': path.resolve(__dirname, 'src'),
 		},
 	},
 	devtool: 'inline-source-map',
 	entry: {
-		app: './dev/index.js',
+		app: './example/index.js',
 	},
 	plugins: [
 		new HtmlWebpackPlugin({
-			template: './dev/index.html',
+			template: './example/index.html',
 		}),
 	],
 	output: {
