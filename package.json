@@ -1,0 +1,48 @@
+{
+  "name": "@~crazy/astar",
+  "version": "0.0.1-8",
+  "description": "astar",
+  "main": "dist/astar.js",
+  "scripts": {
+    "dev": "webpack-dev-server --open --hot --config webpack.dev.js",
+    "demo": "webpack --config webpack.demo.js",
+    "build": "webpack --config webpack.prod.js",
+    "prebuild": "npm version prerelease"
+  },
+  "keywords": [],
+  "author": "GT <769416198@qq.com>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yufeiGT/A-Star"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.1",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^4.3.0",
+    "csv-loader": "^3.0.3",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^4.5.0",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^10.0.2",
+    "style-loader": "^1.3.0",
+    "url-loader": "^4.1.1",
+    "vue-loader": "^15.9.6",
+    "vue-template-compiler": "^2.6.12",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^5.1.4",
+    "xml-loader": "^1.2.1"
+  },
+  "dependencies": {
+    "@~crazy/merge": "0.0.3",
+    "core-js": "^3.6.5",
+    "element-resize-detector": "^1.2.2",
+    "vue": "^2.6.11"
+  }
+}
