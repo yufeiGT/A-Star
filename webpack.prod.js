@@ -15,8 +15,8 @@ module.exports = merge(common, {
         libraryTarget: 'umd',
     },
     externals: {
-        Vue: 'vue',
+        // Vue: 'vue',
         merge: '@~crazy/merge',
-        // elementResizeDetectorMaker: 'element-resize-detector',
+        elementResizeDetectorMaker: 'element-resize-detector',
     },
 });
