@@ -1,13 +1,13 @@
 {
   "name": "@~crazy/astar",
-  "version": "0.0.1-13",
+  "version": "0.0.0-13",
   "description": "astar",
   "main": "dist/astar.js",
   "scripts": {
     "dev": "webpack-dev-server --open --hot --config webpack.dev.js",
     "demo": "webpack --config webpack.demo.js",
     "build": "webpack --config webpack.prod.js",
-    "prebuild": "npm version prerelease"
+    "prebuild": "npm version patch"
   },
   "keywords": [],
   "author": "GT <769416198@qq.com>",
