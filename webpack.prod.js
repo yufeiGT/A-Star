@@ -17,6 +17,6 @@ module.exports = merge(common, {
     externals: {
         Vue: 'vue',
         merge: '@~crazy/merge',
-        elementResizeDetectorMaker: 'element-resize-detector',
+        // elementResizeDetectorMaker: 'element-resize-detector',
     },
 });
