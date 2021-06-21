@@ -16,6 +16,6 @@ module.exports = merge(common, {
     },
     externals: {
         '@~crazy/merge': 'merge',
-        'element-resize-detector': 'elementResizeDetectorMaker',
+        // 'element-resize-detector': 'elementResizeDetectorMaker',
     },
 });
