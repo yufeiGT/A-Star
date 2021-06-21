@@ -15,7 +15,7 @@ module.exports = merge(common, {
         libraryTarget: 'umd',
     },
     externals: {
-        merge: '@~crazy/merge',
-        elementResizeDetectorMaker: 'element-resize-detector',
+        '@~crazy/merge': 'merge',
+        'element-resize-detector': 'elementResizeDetectorMaker',
     },
 });
