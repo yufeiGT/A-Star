@@ -1,6 +1,6 @@
 {
   "name": "@~crazy/astar",
-  "version": "0.0.5",
+  "version": "1.0.0",
   "description": "astar",
   "main": "dist/astar.js",
   "scripts": {
