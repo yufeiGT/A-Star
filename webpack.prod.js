@@ -15,6 +15,11 @@ module.exports = merge(common, {
         libraryTarget: 'umd',
     },
     externals: {
-        '@~crazy/merge': 'Merge',
+        '@~crazy/merge': {
+            commonjs: '@~crazy/merge',
+            commonjs2: '@~crazy/merge',
+            amd: '@~crazy/merge',
+            root: 'Merge',
+        },
     },
 });

@@ -40,7 +40,7 @@
     "xml-loader": "^1.2.1"
   },
   "dependencies": {
-    "@~crazy/merge": "0.0.3",
+    "@~crazy/merge": "0.0.6",
     "core-js": "^3.6.5",
     "element-resize-detector": "^1.2.2"
   }
